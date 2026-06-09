@@ -1,0 +1,84 @@
+.main-box {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+}
+
+.top-header {
+  text-align: center;
+  border: 2px solid darkblue;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.top-header h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.red-circle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.filter-box {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.normal-btn {
+  padding: 5px 12px;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.active-btn {
+  padding: 5px 12px;
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.blue-btn {
+  padding: 8px 15px;
+  background-color: blue;
+  color: white;
+  border: 2px solid darkblue;
+  cursor: pointer;
+}
+
+.blue-btn:hover {
+  background-color: darkblue;
+}
+
+.empty-box {
+  border: 1px dashed gray;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.bottom-text {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 13px;
+}
